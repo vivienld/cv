@@ -26,7 +26,7 @@ export default function Skills({ data }) {
                                 skill.levels.map(level => {
                                     return <div className={artemis('col-3')}>
                                         <div className={artemis('margin-y-1')}>{level.title}</div>
-                                        <Rating className={['rating', artemis('text-sm')].join(' ')}
+                                        <Rating className={['rating', artemis('height-fit-content')].join(' ')}
                                             initialRating={level.value}
                                             readonly
                                             emptySymbol="far fa-star"
