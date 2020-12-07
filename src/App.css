@@ -35,11 +35,6 @@ main{
     height: 100%;
   }
 
-  #aside {
-    overflow-y: hidden;
-    overflow-x: hidden;
-    height: 100%;
-  }
 }
 
 ::-webkit-scrollbar {

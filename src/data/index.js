@@ -87,23 +87,23 @@ const data = {
             location: 'Pont L\'Abbée (29)',
             year: '2005',
         },
-        {
+        /* {
             title: 'Campbridge English B2 (FCE)',
             school: 'Lycée Saint Gabriel',
             location: 'Pont L\'Abbée (29)',
             year: '2004',
-        }
+        } */
     ],
     skills: [
         {
             title: 'web',
             levels: [
                 {
-                    title: 'html_css',
+                    title: 'HTML5 CSS3',
                     value: 4
                 },
                 {
-                    title: 'js',
+                    title: 'js / nodeJS',
                     value: 4
                 },
                 {
@@ -111,36 +111,7 @@ const data = {
                     value: 4
                 },
                 {
-                    title: 'php',
-                    value: 2
-                },
-                {
-                    title: 'design',
-                    value: 2
-                },
-                {
-                    title: 'spring',
-                    value: 2
-                }
-            ]
-        },
-        {
-            title: 'languages',
-            levels: [
-                {
-                    title: 'java',
-                    value: 3
-                },
-                {
-                    title: 'uml',
-                    value: 3
-                },
-                {
-                    title: 'nodejs',
-                    value: 3
-                },
-                {
-                    title: 'python',
+                    title: 'JAVA / SPRING',
                     value: 2
                 }
             ]
@@ -155,27 +126,19 @@ const data = {
                 {
                     title: 'linux',
                     value: 3
-                }
+                },
+                {
+                    title: 'uml',
+                    value: 3
+                },
             ]
         },
         {
             title: 'bases de données',
             levels: [
                 {
-                    title: 'sql',
+                    title: 'sql / mysql',
                     value: 4
-                },
-                {
-                    title: 'mysql',
-                    value: 4
-                },
-                {
-                    title: 'noSql',
-                    value: 2
-                },
-                {
-                    title: 'mongoDB',
-                    value: 2
                 }
             ]
         },
@@ -189,14 +152,6 @@ const data = {
                 {
                     title: 'TDD',
                     value: 3
-                },
-                {
-                    title: 'noSql',
-                    value: 2
-                },
-                {
-                    title: 'mongoDB',
-                    value: 2
                 }
             ]
         }

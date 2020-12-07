@@ -5,7 +5,7 @@ export default function Scholarship({ data }) {
     return (
         <>
             <div className={artemis('row')}>
-                <h1 className={artemis('col text-md margin-top-2')}>
+                <h1 className={artemis('col text-md margin-top-2 border-bottom-2')}>
                     {data.titles.scholarship.toUpperCase()}
                 </h1>
             </div>
@@ -19,7 +19,7 @@ export default function Scholarship({ data }) {
                                     {diploma.title.toUpperCase()}
                                 </div>
                                 <div className={artemis('col-11')}>
-                                    <div className={artemis('border-bottom-2')}></div>
+                                    <div className={artemis('')}></div>
                                 </div>
                             </h1>
                         </div>
