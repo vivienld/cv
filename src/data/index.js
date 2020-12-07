@@ -83,13 +83,13 @@ const data = {
         },
         {
             title: 'Bac littéraire',
-            school: 'Lycée Saint Gzbriel',
+            school: 'Lycée Saint Gabriel',
             location: 'Pont L\'Abbée (29)',
             year: '2005',
         },
         {
             title: 'Campbridge English B2 (FCE)',
-            school: 'Lycée Saint Gzbriel',
+            school: 'Lycée Saint Gabriel',
             location: 'Pont L\'Abbée (29)',
             year: '2004',
         }
@@ -230,7 +230,8 @@ const data = {
     ],
     titles: {
         last_working_exp: "Dernière expérience professionnelle",
-        scholarship: "Scolarité"
+        scholarship: "Scolarité",
+        skills: "Compétences",
     }
 };
 

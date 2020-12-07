@@ -15,7 +15,7 @@ export default function LastExperience({ data }) {
                         <div className={artemis('col-12')}>
                             {data.last_experience.title.toUpperCase()}
                         </div>
-                        <div className={artemis('col-9')}>
+                        <div className={artemis('col-11')}>
                             <div className={artemis('border-bottom-2')}></div>
                         </div>
                     </h1>
