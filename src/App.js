@@ -1,10 +1,12 @@
-import data from './data/index.js';
+import data from './data/index.js'
 
-import './App.css';
+import './App.css'
 
-import Footer from './components/Footer';
+import Footer from './components/Footer'
 import Left from './components/Left'
-import Right from './components/Right';
+import Header from './components/Header'
+import Section from './components/Section'
+import Skills from './components/Skills'
 
 import { artemis } from 'artemis';
 
@@ -20,7 +22,13 @@ function App() {
           </div>
 
           <div className={artemis('col-9 xs-col-12')}>
-            <Right data={data} />
+            <Header data={data} />
+
+            <Section headline={data.titles.lastExperience} list={data.lastExperience} />
+
+            <Section headline={data.titles.scholarship} list={data.diplomas} />
+
+            <Skills data={data} />
           </div>
         </div>
 

@@ -54,3 +54,7 @@ main{
   border-top: solid 1rem transparent;
   border-bottom: solid 1rem transparent;
 }
+
+ul,ol{
+list-style-type: none;
+}

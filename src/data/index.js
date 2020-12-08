@@ -60,99 +60,110 @@ const data = {
         
         Ce stage sera pour moi l'occasion de confirmer mon choix
         et mes compétences de développeur.`,
-    last_experience:
-    {
-        title: 'maître d\'hotel',
-        company: 'Brasserie l\'Octopus',
-        location: 'Nantes',
-        start: '2019',
-        end: '2020',
-        tasks: [
-            'Relation commerciale et clientèle',
-            'Coordination des équipes en salle',
-            'Organisation d\'évènements musicaux, repas d\'entreprise, fêtes',
-            'Assistance à la direction'
-        ]
-    },
+    lastExperience: [
+        {
+            description: 'maître d\'hotel',
+            institution: 'Brasserie l\'Octopus',
+            location: 'Nantes (44)',
+            year: '2019/2020',
+            tasks: [
+                'Directeur suppléant',
+                'Relation commerciale et clientèle',
+                'Coordination des équipes en salle'
+            ]
+        }, {
+            description: 'Manager',
+            institution: 'Macarons et chocolats',
+            location: 'Brest (29)',
+            year: '2012/2014',
+            tasks: [
+                'Gestion de deux patisseries / salons de thé'
+            ]
+        },
+        {
+            description: 'Manager adjoint',
+            institution: 'E.Leclerc',
+            location: 'Quimper (29)',
+            year: '2007/2009',
+            tasks: [
+                'Suivi des stocks et des chiffres de vente',
+                'Mise en place des opérations commerciales'
+            ]
+        },
+
+    ],
     diplomas: [
         {
-            title: 'Développeur Web et Web Mobile Java',
-            school: 'Simplon.co Nantes',
+            description: 'Développeur Web et Web Mobile Java',
+            institution: 'Simplon.co Nantes',
             location: 'Nantes (44)',
             year: 'En cours',
         },
         {
-            title: 'Bac littéraire',
-            school: 'Lycée Saint Gabriel',
+            description: 'Certification OPQUAST',
+            institution: 'Simplon.co Nantes',
+            location: 'Nantes (44)',
+            year: 'En cours',
+        },
+        {
+            description: 'Bac littéraire & Campbridge English B2 (FCE)',
+            institution: 'Lycée Saint Gabriel',
             location: 'Pont L\'Abbée (29)',
             year: '2005',
-        },
-        /* {
-            title: 'Campbridge English B2 (FCE)',
-            school: 'Lycée Saint Gabriel',
-            location: 'Pont L\'Abbée (29)',
-            year: '2004',
-        } */
+        }
     ],
     skills: [
         {
-            title: 'web',
+            title: 'frontend',
             levels: [
                 {
                     title: 'HTML5 CSS3',
                     value: 4
                 },
                 {
-                    title: 'js / nodeJS',
+                    title: 'JS, typescript',
                     value: 4
                 },
                 {
                     title: 'react',
                     value: 4
                 },
-                {
-                    title: 'JAVA / SPRING',
-                    value: 2
-                }
             ]
         },
         {
-            title: 'systèmes',
+            title: 'Backend',
             levels: [
                 {
-                    title: 'git',
-                    value: 4
-                },
-                {
-                    title: 'linux',
+                    title: 'JAVA / SPRING BOOT',
                     value: 3
                 },
                 {
-                    title: 'uml',
+                    title: 'PHP 7 / Symfony',
                     value: 3
                 },
-            ]
-        },
-        {
-            title: 'bases de données',
-            levels: [
                 {
                     title: 'sql / mysql',
-                    value: 4
+                    value: 3
                 }
             ]
         },
+
         {
-            title: 'méthodes',
+            title: 'méthodologies',
             levels: [
                 {
-                    title: 'agile',
+                    title: 'méthodes agiles',
                     value: 3
                 },
                 {
-                    title: 'TDD',
-                    value: 3
-                }
+                    title: 'prog. objet',
+                    value: 5
+                },
+
+                {
+                    title: 'prog. fonctionnelle',
+                    value: 5
+                },
             ]
         }
     ],
@@ -184,7 +195,7 @@ const data = {
 
     ],
     titles: {
-        last_working_exp: "Dernière expérience professionnelle",
+        lastExperience: "Expériences marquantes",
         scholarship: "Scolarité",
         skills: "Compétences",
     }
