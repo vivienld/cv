@@ -14,14 +14,7 @@ export default function Skills({ data }) {
             {
                 data.skills.map(skill => {
                     return <div className={artemis('col-12')}>
-                        {/*<div className={artemis('row')}>
-                            <h3 className={artemis('col-10 text-sm margin-y-1')}>
-                                {skill.title.toUpperCase()}
-                                <div className={artemis('col-11')}>
-                                    <div className={artemis('')}></div>
-                                </div>
-                            </h3>
-                        </div> */}
+
                         <div className={artemis('row')}>
                             {
                                 skill.levels.map(level => {

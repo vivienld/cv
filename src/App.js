@@ -11,14 +11,14 @@ import { artemis } from 'artemis';
 
 function App() {
   return (
-    <main className={artemis('margin-2 flex-col')}>
+    <main className={artemis('margin-2 flex-col height-100 xs-height-fit-content xs-margin-0')}>
 
       <div className={artemis('row xs-height-auto height-100')}>
         <div className={artemis('col-3 xs-col-12 center')}>
             <Left data={data} />
           </div>
 
-        <div className={artemis('col xs-col-12 row vertical height-100 padding-left-2')}>
+        <div className={artemis('col xs-col-12 row vertical height-100 xs-height-fit-content padding-left-2 xs-padding-left-0')}>
             <Header data={data} />
           <div className={artemis('col')}>
 

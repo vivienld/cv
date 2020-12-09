@@ -13,7 +13,7 @@ export default function Left({ data }) {
 
             {/* Description */}
 
-            <div className={artemis('flex-col justify-content-flex-start')} >
+            <div className={artemis('flex-col justify-content-flex-start ')} >
                 <div className={artemis('justify-content-flex-start col text-gray padding-1 rounded  text-x-justify')} >
                     <cite>“{data.description}”</cite>
                 </div>
