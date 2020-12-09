@@ -22,9 +22,9 @@ export default function Section({ headline, list }) {
 
                     <div className={artemis('col-12')}>
                         <div className={artemis('row xs-text-x-center')}>
-                            <h3 className={artemis('col-4 xs-col-12 sm-col-5 md-col-5 text-style-italic text-sm')}>
+                            <div className={artemis('col-4 xs-col-12 sm-col-5 md-col-5 text-style-italic text-sm')}>
                                 {item.institution}
-                            </h3>
+                            </div>
                             <div className={artemis('col-4 xs-col-12 sm-col-3 md-col-3 text-x-center sm-text-x-right md-text-x-right')}>
                                 {item.location}
                             </div>
