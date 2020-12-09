@@ -59,14 +59,9 @@ const data = {
         },
 
     ],
-    description: `Après 15 ans de carrière réussie dans le commerce et la restauration,
-        je saute le pas de la
-        formation afin de transformer un
-        passe-temps en passion.
-        
-        Autodidacte dans le code depuis
-        2005, ce stage sera pour moi l'occasion de confirmer mon choix
-        et mes compétences de développeur.`,
+    description: `Après une carrière accomplie dans le commerce et la restauration,
+        cette réorientation est le résultat de 15 ans de passion en autodidacte dans le code. 
+        Ce stage sera pour moi l'occasion de confirmer mon choix et mettre à profit mes compétences de développeur.`,
     lastExperience: [
         {
             description: 'maître d\'hotel',

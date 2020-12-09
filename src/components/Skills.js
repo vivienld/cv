@@ -9,7 +9,7 @@ export default function Skills({ data }) {
             <h1 className={artemis('col-12 text-md')}>
                 {data.titles.skills.toUpperCase()}
             </h1>
-            <div className={artemis(' border-bottom-2 col-12 lg-col-9 xl-col-9')}></div>
+            <div className={artemis(' border-bottom-1 col-12 lg-col-11 xl-col-11')}></div>
 
             {
                 data.skills.map(skill => {
@@ -25,9 +25,9 @@ export default function Skills({ data }) {
                         <div className={artemis('row')}>
                             {
                                 skill.levels.map(level => {
-                                    return <div className={artemis('col-4 xs-col-12  xs-text-x-center')}>
+                                    return <div className={artemis('col-4 xs-col-12  text-x-center margin-y-1')}>
                                         <div className={artemis('margin-y-1')}>{level.title.toUpperCase()}</div>
-                                        <Rating className={['rating', artemis('height-fit-content')].join(' ')}
+                                        <Rating className={['rating', artemis('height-fit-content text-pink')].join(' ')}
                                             initialRating={level.value}
                                             readonly
                                             emptySymbol="far fa-star"
