@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function Section({ headline, list }) {
     return (
-        <div className={artemis('xs-text-x-center')}>
-            <div className={artemis('row margin-y-1')}>
+        <div className={artemis('xs-text-x-center flex-col')}>
+            <div className={artemis('row margin-bottom-1')}>
                 <h1 className={artemis('col-12 text-md')}>
                     {headline.toUpperCase()}
                 </h1>
@@ -12,15 +12,15 @@ export default function Section({ headline, list }) {
             </div>
 
             {
-                list.map(item => <div className={artemis('row')}>
-                    <div className={artemis('col-12 margin-y-1')}>
+                list.map(item => <div className={artemis('row margin-y-2')}>
+                    <div className={artemis('col-12')}>
 
                         <h2 className={artemis('col text-sm ')}>
                             {item.description.toUpperCase()}
                         </h2>
                     </div>
 
-                    <div className={artemis('col-12 margin-y-1')}>
+                    <div className={artemis('col-12')}>
                         <div className={artemis('row xs-text-x-center')}>
                             <h3 className={artemis('col-4 xs-col-12 sm-col-5 md-col-5 text-style-italic text-sm')}>
                                 {item.institution}
