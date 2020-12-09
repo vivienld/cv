@@ -13,12 +13,6 @@ code {
     monospace;
 }
 
-html,
-body,
-#root,
-main{
-  height: 100%;
-}
 
 @media print {
   html,
@@ -30,7 +24,7 @@ main{
 
   html,
   body,
-  main {
+  main,#root {
       width:100%;
     height: 100%;
   }
@@ -57,4 +51,11 @@ main{
 
 ul,ol{
 list-style-type: none;
+}
+
+#pic{
+  background-image: url('./img/profile.jpeg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right 50% top 0;
 }

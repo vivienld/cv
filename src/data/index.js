@@ -6,6 +6,12 @@ const data = {
     stage: 'Cherche stage du 04/01/21 au 29/01/21',
     infos: [
         {
+            label: 'address',
+            icon: 'fas fa-map-marker-alt',
+            text: 'Nantes',
+            link: null
+        },
+        {
             label: 'phone',
             icon: 'fas fa-phone',
             text: '06 73 58 95 81',
@@ -40,25 +46,26 @@ const data = {
             link: 'https://www.npmjs.com/~vouvounshka'
         },
         {
-            label: 'address',
-            icon: 'fas fa-map-marker-alt',
-            text: 'Nantes',
-            link: null
-        },
-        {
             label: 'birthdate',
             icon: 'fas fa-birthday-cake',
             text: '04.11.1987',
             link: null
         },
+        {
+            label: 'car',
+            icon: 'fas fa-car',
+            text: 'Permis B',
+            link: null
+        },
 
     ],
-    description: `Autodidacte dans le code depuis
-        2005, je saute enfin le pas de la
+    description: `Après 15 ans de carrière réussie dans le commerce et la restauration,
+        je saute le pas de la
         formation afin de transformer un
         passe-temps en passion.
         
-        Ce stage sera pour moi l'occasion de confirmer mon choix
+        Autodidacte dans le code depuis
+        2005, ce stage sera pour moi l'occasion de confirmer mon choix
         et mes compétences de développeur.`,
     lastExperience: [
         {

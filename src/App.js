@@ -2,7 +2,6 @@ import data from './data/index.js'
 
 import './App.css'
 
-import Footer from './components/Footer'
 import Left from './components/Left'
 import Header from './components/Header'
 import Section from './components/Section'
@@ -12,32 +11,32 @@ import { artemis } from 'artemis';
 
 function App() {
   return (
-    <main className={artemis('row vertical')}>
+    <main className={artemis('margin-2 flex-col')}>
 
-      <div className={artemis('col')}>
-
-        <div className={artemis('row reverse height-100 xs-height-auto xs-column-reverse ')}>
-          <div className={artemis('col xs-col-12 height-100')}>
+      <div className={artemis('row xs-height-auto height-100')}>
+        <div className={artemis('col-3 xs-col-12 center')}>
             <Left data={data} />
           </div>
 
-          <div className={artemis('col-9 xs-col-12')}>
+        <div className={artemis('col xs-col-12 row vertical height-100 padding-left-2')}>
             <Header data={data} />
+          <div className={artemis('col')}>
 
             <Section headline={data.titles.lastExperience} list={data.lastExperience} />
+          </div>
+
+          <div className={artemis('col flex-col justify-content-center')}>
 
             <Section headline={data.titles.scholarship} list={data.diplomas} />
+          </div>
+
+          <div className={artemis('col-1')}>
 
             <Skills data={data} />
           </div>
+
         </div>
-
-      </div>
-
-      <div className={artemis('col-1')}>
-        <Footer data={data} />
-      </div>
-
+      </div>  
     </main>
   );
 }
