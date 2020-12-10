@@ -1,28 +1,28 @@
 import data from './data/index.js'
 
+import { artemis } from 'artemis'
 import './App.css'
+import pic from './img/profile.jpeg'
+
+import React from 'react'
 
 import Header from './components/Header'
 import Section from './components/Section'
 import Skills from './components/Skills'
-import Contact from './components/Contact'
-import React from 'react'
-import { artemis } from 'artemis'
-import pic from './img/profile.jpeg'
-
 
 const picStyle = {
   backgroundImage: `url(${pic})`,
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'contain',
   backgroundPosition: 'center 0',
+  minHeight: 200
 }
 
 function App() {
   return (
-    <main className={artemis('row height-100 flex-column xs-margin-0')}>
+    <main className={artemis('row height-100 flex-column xs-margin-0 padding-2')}>
 
-      <div className={artemis('col-3 xs-col-12 center sm-margin-0 xs-margin-0 margin-2')}>
+      <div className={artemis('col-3 xs-col-12 center xs-margin-0 ')}>
         <aside id="aside"
           className={artemis('text-x-center row vertical  xs-margin-0  height-100')}>
 
@@ -39,11 +39,24 @@ function App() {
             </div>
           </div>
 
-          <Contact data={data} />
+          <div className={artemis('height-100 xs-height-fit-content row vertical')}>
+
+            {
+              data.infos.map((c, i) => (
+                <div className={artemis("cursor-pointer background-indigo-hover text-white-hover col flex-column center padding-1")}>
+                  <a href={c.link} className={artemis('decoration-none text-inherit width-100')} >
+                    <div className={[c.icon, artemis('')].join(' ')}></div>
+                    <div className={artemis('flex-col align-items-flex-end  text-600')} key={i}>{c.text}</div>
+                  </a>
+                </div>
+              ))
+            }
+          </div>
+
         </aside>
       </div>
 
-      <div className={artemis('sm-margin-0 xs-margin-0 margin-2 col xs-col-12 row vertical xs-height-fit-content padding-left-2 xs-padding-left-0 background-white height-100')}>
+      <div className={artemis('sm-margin-0 xs-margin-0 col xs-col-12 row vertical xs-height-fit-content padding-left-2 xs-padding-left-0 background-white height-100')}>
             <Header data={data} />
         <div className={artemis('col flex-column justify-content-stretch')}>
             <Section headline={data.titles.lastExperience} list={data.lastExperience} />
