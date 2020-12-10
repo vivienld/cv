@@ -15,7 +15,7 @@ export default function Section({ headline, list }) {
             </div>
             <div className={artemis('col row vertical')}>
             {
-                    list.map(item => <div className={artemis('col margin-y-2')}>
+                    list.map(item => <div className={artemis('col margin-y-2  flex-row justify-content-center')}>
                         <div className={artemis('')}>
 
                             <h2 className={artemis('text-sm ')}>

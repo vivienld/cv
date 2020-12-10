@@ -4,7 +4,7 @@ import Rating from 'react-rating'
 
 export default function Skills({ data }) {
     return (
-        <div className={artemis('row vertical margin-y-2 height-100')}>
+        <div className={artemis('row vertical margin-y-2 height-100 xs-align-items-center')}>
             <div className={artemis('col-1')}>
                 <div className={artemis("row")} >
 
@@ -21,7 +21,7 @@ export default function Skills({ data }) {
                                 <div className={artemis('row ')}>
                             {
                                 skill.levels.map(level => {
-                                    return <div className={artemis('col-4 xs-col-12 margin-y-1')}>
+                                    return <div className={artemis('col-4 xs-col-12 margin-y-1 text-x-center')}>
                                         <div className={artemis('margin-y-1')}>{level.title.toUpperCase()}</div>
                                         <Rating className={['rating', artemis('height-fit-content text-pink')].join(' ')}
                                             initialRating={level.value}

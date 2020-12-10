@@ -2,7 +2,7 @@ import React from 'react'
 import { artemis } from 'artemis';
 
 const container = artemis('height-100 row vertical')
-const col = artemis("cursor-pointer background-indigo-hover text-white-hover col padding-y-2 flex-column center")
+const col = artemis("cursor-pointer background-indigo-hover text-white-hover col flex-column center")
 const contact = artemis('decoration-none text-inherit')
 
 
