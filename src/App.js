@@ -2,7 +2,8 @@ import data from './data/index.js'
 
 import { artemis } from 'artemis'
 import './App.css'
-import pic from './img/profile.jpeg'
+//import pic from './img/profile.jpeg'
+import pic from './img/pic.jpg'
 
 import React from 'react'
 
