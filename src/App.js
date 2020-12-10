@@ -20,9 +20,9 @@ const picStyle = {
 
 function App() {
   return (
-    <main className={artemis('row height-100 flex-column xs-margin-0 padding-2')}>
+    <main className={artemis('row height-100 flex-column xs-margin-0 padding-2 overflow-hidden')}>
 
-      <div className={artemis('col-3 xs-col-12 center xs-margin-0 ')}>
+      <div className={artemis('col-3 xs-col-12 center xs-margin-0 overflow-auto height-100')}>
         <aside id="aside"
           className={artemis('text-x-center row vertical  xs-margin-0  height-100')}>
 
@@ -56,7 +56,7 @@ function App() {
         </aside>
       </div>
 
-      <div className={artemis('sm-margin-0 xs-margin-0 col xs-col-12 row vertical xs-height-fit-content padding-left-2 xs-padding-left-0 background-white height-100')}>
+      <div className={artemis('sm-margin-0 xs-margin-0 col xs-col-12 row vertical xs-height-fit-content padding-left-2 xs-padding-left-0 background-white height-100 overflow-auto height-100')}>
             <Header data={data} />
         <div className={artemis('col flex-column justify-content-stretch')}>
             <Section headline={data.titles.lastExperience} list={data.lastExperience} />
