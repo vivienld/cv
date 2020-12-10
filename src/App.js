@@ -15,12 +15,12 @@ const picStyle = {
   backgroundImage: `url(${pic})`,
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'contain',
-  backgroundPosition: 'center',
+  backgroundPosition: 'center 0',
 }
 
 function App() {
   return (
-    <main className={artemis('row xs-height-auto flex-col sm-height-100 xs-margin-0 background-pink')}>
+    <main className={artemis('row height-100 flex-column xs-margin-0')}>
 
       <div className={artemis('col-3 xs-col-12 center sm-margin-0 xs-margin-0 margin-2')}>
         <aside id="aside"
@@ -28,13 +28,12 @@ function App() {
 
           {/* Photo */}
 
-          <div className={artemis('col-2 xs-col-4 flex-col center')} id="pic" style={picStyle}>
-            <img className={artemis('xs-max-height-50 xs-max-width-50 xs-min-height-50 xs-min-width-50  display-none xs-display-inline-block')} src={pic} alt="" />
+          <div className={artemis('col-2 xs-col-4 flex-column center position-relative')} id="pic" style={picStyle}>
           </div>
 
           {/* Description */}
 
-          <div className={artemis('flex-col justify-content-flex-start background-white')} >
+          <div className={artemis('col flex-column justify-content-flex-start background-white')} >
             <div className={artemis('justify-content-flex-start col text-gray padding-1 rounded  text-x-justify')} >
               <cite>“{data.description}”</cite>
             </div>
@@ -46,15 +45,15 @@ function App() {
 
       <div className={artemis('sm-margin-0 xs-margin-0 margin-2 col xs-col-12 row vertical xs-height-fit-content padding-left-2 xs-padding-left-0 background-white height-100')}>
             <Header data={data} />
-        <div className={artemis('col')}>
+        <div className={artemis('col flex-column justify-content-stretch')}>
             <Section headline={data.titles.lastExperience} list={data.lastExperience} />
           </div>
 
-        <div className={artemis('col flex-row justify-content-center')}>
+        <div className={artemis('col flex-column justify-content-stretch')}>
             <Section headline={data.titles.scholarship} list={data.diplomas} />
           </div>
 
-        <div className={artemis('col-1')}>
+        <div className={artemis('col flex-column justify-content-stretch')}>
             <Skills data={data} />
           </div>
 

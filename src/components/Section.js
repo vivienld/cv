@@ -3,19 +3,22 @@ import React from 'react'
 
 export default function Section({ headline, list }) {
     return (
-        <div className={artemis('xs-text-x-center flex-col')}>
-            <div className={artemis('row margin-bottom-1')}>
-                <h1 className={artemis('col-12 text-md')}>
-                    {headline.toUpperCase()}
-                </h1>
-                <div className={artemis(' border-bottom-1 col-12 lg-col-11 xl-col-11')}></div>
+        <div className={artemis('xs-text-x-center row vertical height-100')}>
+            <div className={artemis('row margin-bottom-1 col-1')}>
+
+                <div className={artemis('row')}>
+                    <h1 className={artemis('col-12 text-md')}>
+                        {headline.toUpperCase()}
+                    </h1>
+                    <div className={artemis(' border-bottom-1 col-12')}></div>
+                </div>
             </div>
-
+            <div className={artemis('col row vertical')}>
             {
-                list.map(item => <div className={artemis('row margin-y-2')}>
-                    <div className={artemis('col-12')}>
+                    list.map(item => <div className={artemis('col margin-y-2')}>
+                        <div className={artemis('')}>
 
-                        <h2 className={artemis('col text-sm ')}>
+                            <h2 className={artemis('text-sm ')}>
                             {item.description.toUpperCase()}
                         </h2>
                     </div>
@@ -39,6 +42,7 @@ export default function Section({ headline, list }) {
                 </div>
                 )
             }
+            </div>
         </div>
     )
 }
