@@ -23,7 +23,7 @@ function App() {
   return (
     <main className={artemis('row height-100 flex-column xs-margin-0 padding-2 overflow-hidden xs-overflow-auto')}>
 
-      <div className={artemis('col-3 xs-col-12 center xs-margin-0 overflow-auto xs-overflow-hidden height-100 xs-height-auto')}>
+      <div className={artemis('col-3 sm-col-4 xs-col-12 center xs-margin-0 overflow-auto xs-overflow-hidden height-100 xs-height-auto')}>
         <aside id="aside"
           className={artemis('text-x-center row vertical  xs-margin-0  height-100')}>
 
