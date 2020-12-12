@@ -1,15 +1,16 @@
+import React from 'react'
+
 import data from './data/index.js'
 
-import { artemis } from 'artemis'
-import './App.css'
-//import pic from './img/profile.jpeg'
-import pic from './img/pic.jpg'
+import { artemis} from 'artemis'
 
-import React from 'react'
+import './App.css'
+import pic from './img/pic.jpg'
 
 import Header from './components/Header'
 import Section from './components/Section'
 import Skills from './components/Skills'
+
 
 const picStyle = {
   backgroundImage: `url(${pic})`,

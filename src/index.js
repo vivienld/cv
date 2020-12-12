@@ -1,11 +1,19 @@
+import 'core-js'
 import React from 'react';
 import ReactDOM from 'react-dom';
 
 import 'artemis'
+
+
+
+import { grid } from 'artemis'
+
 import './css/fontawesome/css/all.css'
 
 import App from './App'
 import reportWebVitals from './reportWebVitals'
+
+
 
 ReactDOM.render(
   <React.StrictMode>
