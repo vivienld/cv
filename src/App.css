@@ -4,10 +4,7 @@
     height:100%;
   }
 
-  body{
-    display:flex;
-    justify-content: stretch;
-  }
+
 ::-webkit-scrollbar {
   width: 1rem;
 }
