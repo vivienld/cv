@@ -2,11 +2,7 @@ import 'core-js'
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import 'artemis'
-
-
-
-import { grid } from 'artemis'
+import '@iliad/artemis'
 
 import './css/fontawesome/css/all.css'
 

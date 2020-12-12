@@ -1,4 +1,4 @@
-import { artemis } from 'artemis'
+import { artemis } from '@iliad/artemis'
 import React from 'react'
 
 export default function LastExperience({ data }) {

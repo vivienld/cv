@@ -2,7 +2,7 @@ import React from 'react'
 
 import data from './data/index.js'
 
-import { artemis} from 'artemis'
+import { artemis} from '@iliad/artemis'
 
 import './App.css'
 import pic from './img/pic.jpg'

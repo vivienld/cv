@@ -1,5 +1,5 @@
 import React from 'react'
-import { artemis } from 'artemis'
+import { artemis } from '@iliad/artemis'
 import Rating from 'react-rating'
 
 export default function Skills({ data }) {

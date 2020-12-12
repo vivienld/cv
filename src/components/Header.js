@@ -1,5 +1,5 @@
 import React from 'react'
-import { artemis } from 'artemis'
+import { artemis } from '@iliad/artemis'
 
 export default function Header({ data }) {
     return <div className={artemis('fancyclass background-primary-dark text-white xs-text-x-center text-x-center margin-bottom-2')}>

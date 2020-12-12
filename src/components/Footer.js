@@ -1,5 +1,5 @@
 import React from 'react'
-import { artemis } from 'artemis';
+import { artemis } from '@iliad/artemis';
 
 const container = artemis('sticky bottom-0 width-100 row text-x-center border-top-1 padding-1')
 const col = artemis("cursor-pointer light-hover xs-col-12 sm-col-3 md-col-3 col padding-1")
