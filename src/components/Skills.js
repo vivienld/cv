@@ -1,12 +1,12 @@
 export default function Skills({ skills, headline, className, artemis, Rating }) {
     return (
         <div className={className}>
-            <div className={artemis('row vertical margin-y-2 height-100 xs-align-items-center')}>
-                <div className={artemis('col-1')}>
-                    <div className={artemis("row")} >
+            <div className={artemis('row vertical margin-y-2 height-100')}>
+                <div className={artemis('col-1  width-100')}>
+                    <div className={artemis("row xs-text-x-center")} >
 
-                        <h1 className={artemis('text-md')}> {headline.toUpperCase()}</h1>
-                        <div className={artemis('border-bottom-1 col-12')}></div>
+                        <h1 className={artemis('col-12 text-md')}> {headline.toUpperCase()}</h1>
+                        <div className={artemis('col-12 border-bottom-1 col-12')}></div>
                     </div>
                 </div>
                 {
