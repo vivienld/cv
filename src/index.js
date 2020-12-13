@@ -1,15 +1,15 @@
 import 'core-js'
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 
 import '@iliad/artemis'
 
 import './css/fontawesome/css/all.css'
+import './App.css'
 
 import App from './App'
 import reportWebVitals from './reportWebVitals'
-
-
 
 ReactDOM.render(
   <React.StrictMode>
