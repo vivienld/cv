@@ -9,7 +9,7 @@ export default function Aside({data, picStyle, artemis, className}) {
             <aside id="aside"
                 className={artemis('text-x-center row vertical  xs-margin-0  height-100')}>
 
-                <Portrait description={data.description} picStyle={picStyle} artemis={artemis}/>
+                <Portrait description={data.description} picStyle={picStyle} artemis={artemis} className={artemis('xs-display-none')} />
 
                 <div className={artemis('height-100 xs-height-fit-content row vertical')}>
 

@@ -9,6 +9,7 @@ import Header from './components/Header'
 import Section from './components/Section'
 import Skills from './components/Skills'
 import Aside from './components/Aside'
+import Portrait from './components/Portrait'
 
 import pic from './img/pic.jpg'
 
@@ -22,7 +23,7 @@ const picStyle = {
 
 function App() {
   return (
-    <main className={artemis('row height-100 flex-column xs-margin-0 padding-2 overflow-hidden xs-overflow-auto xs-column-reverse')}>
+    <main className={artemis('row height-100 xs-height-auto flex-column xs-margin-0 padding-2 xs-column-reverse')}>
 
       <Aside data={data} picStyle={picStyle} artemis={artemis} className={artemis('col-3 sm-col-4 xs-col-12 center xs-margin-0 overflow-auto xs-overflow-hidden height-100 xs-height-auto')} />
 
@@ -30,6 +31,8 @@ function App() {
 
         <Header artemis={artemis} data={data} className={artemis('background-primary-dark text-white xs-text-x-center text-x-center margin-bottom-2 padding-y-1')} />
 
+        <Portrait description={data.description} picStyle={picStyle} artemis={artemis} className={artemis('display-none xs-display-block')} />
+        
         <Section artemis={artemis} headline={data.titles.lastExperience} list={data.lastExperience} className={artemis('col flex-column justify-content-stretch')} />
 
         <Section artemis={artemis} headline={data.titles.scholarship} list={data.diplomas} className={artemis('col flex-column justify-content-stretch')} />
