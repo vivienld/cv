@@ -28,7 +28,7 @@ list-style-type: none;
 }
 
 @media print{
-  aside{
+  *{
     overflow:hidden;
   }
 }
