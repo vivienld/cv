@@ -108,10 +108,16 @@ const data = {
             year: 'En cours',
         },
         {
-            description: 'Bac littéraire & Campbridge English B2 (FCE)',
+            description: 'Bac littéraire',
             institution: 'Lycée Saint Gabriel',
             location: 'Pont L\'Abbée (29)',
             year: '2005',
+        },
+        {
+            description: 'Campbridge English B2 (FCE)',
+            institution: 'Lycée Saint Gabriel',
+            location: 'Pont L\'Abbée (29)',
+            year: '2004',
         }
     ],
     skills: [

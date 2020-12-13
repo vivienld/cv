@@ -2,12 +2,10 @@ import React from 'react'
 
 import Portrait from './Portrait'
 
-export default function Aside({data, picStyle, artemis, className}) {
+export default function Aside({data, picStyle, artemis}) {
     return (
-
-        <div className={className}>
             <aside id="aside"
-                className={artemis('text-x-center row vertical  xs-margin-0  height-100')}>
+            className={artemis('col-3 sm-col-4 xs-col-12 center xs-margin-0 overflow-auto xs-overflow-hidden height-100 xs-height-auto flex-column justify-content-stretch text-x-center row vertical  xs-margin-0  height-100')}>
 
                 <Portrait description={data.description} picStyle={picStyle} artemis={artemis} className={artemis('xs-display-none')} />
 
@@ -26,6 +24,5 @@ export default function Aside({data, picStyle, artemis, className}) {
                 </div>
 
             </aside>
-        </div>
     )
 }

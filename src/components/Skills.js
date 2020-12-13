@@ -1,7 +1,6 @@
-export default function Skills({ skills, headline, className, artemis, Rating }) {
+export default function Skills({ skills, headline, artemis, Rating }) {
     return (
-        <div className={className}>
-            <div className={artemis('row vertical margin-y-2 height-100')}>
+        <div className={artemis('col flex-column justify-content-stretch row vertical margin-y-2')}>
                 <div className={artemis('col-1  width-100')}>
                     <div className={artemis("row xs-text-x-center")} >
 
@@ -36,6 +35,5 @@ export default function Skills({ skills, headline, className, artemis, Rating })
                     })
                 }
             </div>
-        </div>
     )
 }

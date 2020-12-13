@@ -1,7 +1,6 @@
 export default function Section({ headline, list,className,artemis }) {
     return (
-        <div className={className}>
-            <div className={artemis('xs-text-x-center row vertical height-100')}>
+            <div className={artemis('col flex-column justify-content-stretch xs-text-x-center row vertical')}>
                 <div className={artemis('row margin-bottom-1 col-1')}>
 
                     <div className={artemis('row')}>
@@ -11,7 +10,7 @@ export default function Section({ headline, list,className,artemis }) {
                         <div className={artemis(' border-bottom-1 col-12')}></div>
                     </div>
                 </div>
-                <div className={artemis('col row vertical')}>
+                <div className={artemis('col row  height-100')}>
                 {
                         list.map((item,i) => <div key={i} className={artemis('col margin-y-2  flex-row justify-content-center')}>
                             <div className={artemis('')}>
@@ -42,6 +41,5 @@ export default function Section({ headline, list,className,artemis }) {
                 }
                 </div>
             </div>
-        </div>
     )
 }
