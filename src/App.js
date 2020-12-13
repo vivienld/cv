@@ -23,7 +23,8 @@ const picStyle = {
 
 function App() {
   return (
-    <main className={artemis('flex-1 row xs-height-auto  xs-margin-0 padding-2 xs-column-reverse')}>
+    <main className={artemis('flex-1')}>
+    <div className={artemis('row xs-height-auto  xs-margin-0 padding-2 xs-column-reverse')}>
 
       <Aside data={data} picStyle={picStyle} artemis={artemis} />
 
@@ -39,6 +40,7 @@ function App() {
 
         <Skills artemis={artemis} Rating={Rating} headline={data.titles.skills} skills={data.skills} />
 
+      </div>
       </div>
     </main>
   );
