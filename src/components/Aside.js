@@ -5,11 +5,12 @@ import Portrait from './Portrait'
 export default function Aside({data, picStyle, artemis}) {
     return (
             <aside id="aside"
-            className={artemis('col-3 sm-col-4 xs-col-12 center xs-margin-0 flex-column justify-content-stretch text-x-center row vertical  xs-margin-0')}>
-
+            className={artemis('align-self-stretch col-3 sm-col-4 xs-col-12 text-x-center xs-margin-0')}>
+            <div className={artemis('height-100 row vertical')}>
+                
                 <Portrait description={data.description} picStyle={picStyle} artemis={artemis} className={artemis('xs-display-none')} />
 
-                <div className={artemis('col width-100')}>
+                <div className={artemis('width-100 col row vertical')}>
 
                     {
                         data.infos.map((c, i) => (
@@ -22,7 +23,7 @@ export default function Aside({data, picStyle, artemis}) {
                         ))
                     }
                 </div>
-
+                </div>
             </aside>
     )
 }

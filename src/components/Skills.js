@@ -1,7 +1,7 @@
 export default function Skills({ skills, headline, artemis, Rating }) {
     return (
-        <div className={artemis('col margin-y-2')}>
-                <div className={artemis('col-1  width-100')}>
+        <div className={artemis('margin-y-2 flex-column justify-content-stretch')}>
+                <div className={artemis('width-100')}>
                     <div className={artemis("row xs-text-x-center")} >
 
                         <h1 className={artemis('col-12 text-md')}> {headline.toUpperCase()}</h1>
@@ -9,8 +9,9 @@ export default function Skills({ skills, headline, artemis, Rating }) {
                     </div>
                 </div>
                 {
-                    skills.map((skill,i) => {
-                        return <div className={artemis('row width-100')}>
+                skills.map((skill, i) => <div key={i} className={artemis('flex-1')}>
+
+                    <div className={artemis('row width-100')}>
                                         {
                                             skill.levels.map((level,i) => {
                                                 return <div key={i} className={artemis('col-4 xs-col-12 margin-y-1 text-x-center flex-column justify-content-flex-end')}>
@@ -24,8 +25,9 @@ export default function Skills({ skills, headline, artemis, Rating }) {
                                                 </div>
                                             })
                                         }
-                                    </div>
-                    })
+                            </div>
+                            </div>
+                    )
                 }
             </div>
     )

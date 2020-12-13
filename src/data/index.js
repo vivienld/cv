@@ -125,32 +125,32 @@ const data = {
             title: 'frontend',
             levels: [
                 {
-                    title: 'HTML5 CSS3',
+                    title: 'HTML/JS',
                     value: 4
                 },
                 {
-                    title: 'JS, typescript',
+                    title: 'REACT/NEXTJS',
                     value: 4
                 },
                 {
-                    title: 'react',
+                    title: 'CSS/SASS',
                     value: 4
-                },
+                }
             ]
         },
         {
             title: 'Backend',
             levels: [
                 {
-                    title: 'JAVA / SPRING BOOT',
+                    title: 'JAVA/SPRING BOOT',
                     value: 3
                 },
                 {
-                    title: 'PHP 7 / Symfony',
+                    title: 'C#/NETCORE',
                     value: 3
                 },
                 {
-                    title: 'sql / mysql',
+                    title: 'sql/mysql',
                     value: 3
                 }
             ]

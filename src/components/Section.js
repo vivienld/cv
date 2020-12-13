@@ -1,15 +1,13 @@
 export default function Section({ headline, list,className,artemis }) {
     return (
-            <div className={artemis('col xs-text-x-center row vertical')}>
-                <div className={artemis('row margin-bottom-1 col-1')}>
-
-                    <div className={artemis('row')}>
+            <div className={artemis('flex-1 xs-text-x-center row vertical')}>
+                <div className={artemis('row margin-bottom-1')}>
                         <h1 className={artemis('col-12 text-md')}>
                             {headline.toUpperCase()}
                         </h1>
-                        <div className={artemis(' border-bottom-1 col-12')}></div>
+                        <div className={artemis('border-bottom-1 col-12')}></div>
                     </div>
-                </div>
+
                 <div className={artemis('col row  height-100')}>
                 {
                         list.map((item,i) => <div key={i} className={artemis('col margin-y-2  flex-row justify-content-center')}>
