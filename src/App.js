@@ -27,7 +27,7 @@ function App() {
 
       <Aside data={data} picStyle={picStyle} artemis={artemis} />
 
-      <div className={artemis('sm-margin-0 xs-margin-0 col xs-col-12 padding-left-2 xs-padding-left-0 xs-height-auto height-100 overflow-auto xs-overflow-hidden height-100')}>
+      <div className={artemis('row sm-margin-0 xs-margin-0 col xs-col-12 padding-left-2 xs-padding-left-0 xs-height-auto height-100 overflow-auto xs-overflow-hidden height-100')}>
 
         <Header artemis={artemis} data={data} />
 

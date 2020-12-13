@@ -9,7 +9,7 @@ export default function Aside({data, picStyle, artemis}) {
 
                 <Portrait description={data.description} picStyle={picStyle} artemis={artemis} className={artemis('xs-display-none')} />
 
-                <div className={artemis('height-100 xs-height-fit-content row vertical')}>
+                <div className={artemis('col row vertical')}>
 
                     {
                         data.infos.map((c, i) => (
