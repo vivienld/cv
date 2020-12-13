@@ -168,10 +168,6 @@ const data = {
                     value: 5
                 },
 
-                {
-                    title: 'prog. fonctionnelle',
-                    value: 5
-                },
             ]
         }
     ],
