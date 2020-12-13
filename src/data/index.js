@@ -167,6 +167,10 @@ const data = {
                     title: 'prog. objet',
                     value: 5
                 },
+                {
+                    title: 'prog. fonctionnelle',
+                    value: 5
+                },
 
             ]
         }

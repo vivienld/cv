@@ -1,6 +1,6 @@
 export default function Skills({ skills, headline, artemis, Rating }) {
     return (
-        <div className={artemis('col-1  margin-y-2')}>
+        <div className={artemis('col margin-y-2')}>
                 <div className={artemis('col-1  width-100')}>
                     <div className={artemis("row xs-text-x-center")} >
 

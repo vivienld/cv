@@ -1,6 +1,6 @@
 export default function Section({ headline, list,className,artemis }) {
     return (
-            <div className={artemis('col flex-column justify-content-stretch xs-text-x-center row vertical')}>
+            <div className={artemis('col xs-text-x-center row vertical')}>
                 <div className={artemis('row margin-bottom-1 col-1')}>
 
                     <div className={artemis('row')}>
