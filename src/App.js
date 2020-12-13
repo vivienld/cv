@@ -23,11 +23,11 @@ const picStyle = {
 
 function App() {
   return (
-    <main className={artemis('justify-content-stretch row height-100 xs-height-auto flex-column xs-margin-0 padding-2 xs-column-reverse overflow-hidden')}>
+    <main className={artemis('justify-content-stretch row height-100 xs-height-auto flex-column xs-margin-0 padding-2 xs-column-reverse overflow-hiddenv position-relative')}>
 
       <Aside data={data} picStyle={picStyle} artemis={artemis} />
 
-      <div className={artemis('sm-margin-0 xs-margin-0 col xs-col-12 row vertical xs-height-fit-content padding-left-2 xs-padding-left-0 background-white overflow-auto xs-overflow-hidden xs-height-auto')}>
+      <div className={artemis('background-error sm-margin-0 xs-margin-0 col xs-col-12 padding-left-2 xs-padding-left-0 height-100 overflow-auto xs-overflow-hidden xs-height-auto')}>
 
         <Header artemis={artemis} data={data} />
 
