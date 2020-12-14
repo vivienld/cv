@@ -146,7 +146,7 @@ const data = {
                     value: 3
                 },
                 {
-                    title: 'C# / NETCORE',
+                    title: 'C# / .NETCORE',
                     value: 3
                 },
                 {
