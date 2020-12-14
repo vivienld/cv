@@ -11,6 +11,7 @@ import Portrait from './components/Portrait'
 import FooterContact from './components/FooterContact'
 
 import pic from './img/pic.webp'
+
 const picStyle = {
   backgroundImage: `url(${pic})`,
   backgroundRepeat: 'no-repeat',
