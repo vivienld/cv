@@ -2,7 +2,6 @@ export default function Portrait({picStyle,description,artemis, className}) {
     return (
         <div className={className}>
             {/* Photo */}
-
             <div className={'col-2 xs-col-4 flex-column center position-relative'} id="pic" style={picStyle}>
             </div>
 

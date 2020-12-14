@@ -10,10 +10,11 @@ import Aside from './components/Aside'
 import Portrait from './components/Portrait'
 import FooterContact from './components/FooterContact'
 
-import pic from './img/pic.jpg'
+import pic from './img/pic.webp'
+import pic2 from './img/pic.jpg'
 
 const picStyle = {
-  backgroundImage: `url(${pic})`,
+  backgroundImage: `url(${pic}),url(${pic2})`,
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'contain',
   backgroundPosition: 'center 0',
