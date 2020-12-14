@@ -1,6 +1,6 @@
 export default function Section({ headline, list,className,artemis }) {
     return (
-            <div className={artemis('flex-1 xs-text-x-center row vertical')}>
+            <div className={artemis('flex-auto xs-text-x-center row vertical')}>
                 <div className={artemis('row margin-bottom-1')}>
                         <h1 className={artemis('col-12 text-md')}>
                             {headline.toUpperCase()}
