@@ -1,10 +1,5 @@
-/*  html,body,#root{
-    height:100%;
-  }
-*/
 
-
-@media (min-aspect-ratio: 3/5) and (max-aspect-ratio: 4/3){
+@media (min-aspect-ratio: 4/6) and (max-aspect-ratio: 4/3){
 
   html,body,#root,main{
     height:100% !important;
