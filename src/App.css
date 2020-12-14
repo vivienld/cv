@@ -1,5 +1,5 @@
 
-@media (min-aspect-ratio: 4/6) and (max-aspect-ratio: 4/3){
+@media (min-height:1365px) and (min-width: 1023px){
 
   html,body,#root,main{
     height:100% !important;
