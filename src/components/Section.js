@@ -26,7 +26,7 @@ export default function Section({ headline, list,className,artemis }) {
                                 <div className={artemis('col-4 xs-col-12 text-x-center')}>
                                     {item.location}
                                 </div>
-                                <div className={artemis('col xs-col-12 xs-text-x-center text-x-right')}>
+                                <div className={artemis('col-2 xs-col-12 xs-text-x-center text-x-right')}>
                                     {item.year}
                                 </div>
                             </div>
