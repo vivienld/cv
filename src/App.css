@@ -1,4 +1,4 @@
-  html,body,#root{
+/*  html,body,#root{
     height:100%;
   }
 
@@ -7,6 +7,7 @@
     height:100% !important;
   }
 }
+*/
 
 ::-webkit-scrollbar {
   width: 1rem;
