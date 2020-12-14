@@ -10,6 +10,7 @@ import Section from './components/Section'
 import Skills from './components/Skills'
 import Aside from './components/Aside'
 import Portrait from './components/Portrait'
+import FooterContact from './components/FooterContact'
 
 import pic from './img/pic.jpg'
 
@@ -23,8 +24,7 @@ const picStyle = {
 
 function App() {
   return (
-    <main className={artemis('flex-1')}>
-    <div className={artemis('row xs-height-auto  xs-margin-0 padding-2 xs-column-reverse')}>
+    <main className={artemis('row xs-height-auto padding-2 sm-padding-0 xs-padding-0')}>
 
       <Aside data={data} picStyle={picStyle} artemis={artemis} />
 
@@ -40,7 +40,7 @@ function App() {
 
         <Skills artemis={artemis} Rating={Rating} headline={data.titles.skills} skills={data.skills} />
 
-      </div>
+        <FooterContact artemis={artemis} infos={data.infos} headline={data.titles.contact} />
       </div>
     </main>
   );

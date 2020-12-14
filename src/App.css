@@ -1,10 +1,12 @@
   html,body,#root{
     height:100%;
-    display:flex;
-    display:-webkit-flex;
-    flex-flow: column nowrap;
-    justify-content:stretch;
   }
+
+@media (max-aspect-ratio: 3/4){
+  main{
+    height:100% !important;
+  }
+}
 
 ::-webkit-scrollbar {
   width: 1rem;

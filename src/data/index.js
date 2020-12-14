@@ -125,15 +125,15 @@ const data = {
             title: 'frontend',
             levels: [
                 {
-                    title: 'HTML/JS',
+                    title: 'HTML / JS',
                     value: 4
                 },
                 {
-                    title: 'REACT/NEXTJS',
+                    title: 'REACT / NEXTJS',
                     value: 4
                 },
                 {
-                    title: 'CSS/SASS',
+                    title: 'CSS / SASS',
                     value: 4
                 }
             ]
@@ -142,15 +142,15 @@ const data = {
             title: 'Backend',
             levels: [
                 {
-                    title: 'JAVA/SPRING BOOT',
+                    title: 'JAVA / SPRING BOOT',
                     value: 3
                 },
                 {
-                    title: 'C#/NETCORE',
+                    title: 'C# / NETCORE',
                     value: 3
                 },
                 {
-                    title: 'sql/mysql',
+                    title: 'SQL / MYSQL',
                     value: 3
                 }
             ]
@@ -160,18 +160,17 @@ const data = {
             title: 'méthodologies',
             levels: [
                 {
-                    title: 'méthodes agiles',
-                    value: 3
+                    title: 'GIT / GITHUB',
+                    value: 2.5
                 },
                 {
-                    title: 'prog. objet',
-                    value: 5
+                    title: 'UNIX / LINUX',
+                    value: 2.5
                 },
                 {
-                    title: 'prog. fonctionnelle',
-                    value: 5
+                    title: 'agilité',
+                    value: 2.5
                 },
-
             ]
         }
     ],
@@ -206,6 +205,7 @@ const data = {
         lastExperience: "Expériences marquantes",
         scholarship: "Scolarité",
         skills: "Compétences",
+        contact: "contact",
     }
 };
 
