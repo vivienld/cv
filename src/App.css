@@ -1,8 +1,9 @@
 /*  html,body,#root{
     height:100%;
   }
+*/
 
-@media  (max-aspect-ratio: 4/3){
+@media (aspect-ratio: 4/3) and (aspect-ratio: 512/683){
   html,body,#root,main{
     min-height:100%;
   }
