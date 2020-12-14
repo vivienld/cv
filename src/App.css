@@ -1,14 +1,14 @@
 /*  html,body,#root{
     height:100%;
   }
-*/
+
 @media  (max-aspect-ratio: 4/3){
   html,body,#root,main{
     min-height:100%;
   }
 }
 
-
+*/
 ::-webkit-scrollbar {
   width: 1rem;
 }
