@@ -14,7 +14,7 @@ import pic from './img/pic.webp'
 import pic2 from './img/pic.jpg'
 
 const picStyle = {
-  backgroundImage: `url(${pic}),url(${pic2})`,
+  backgroundImage: `url(${pic2})`,
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'contain',
   backgroundPosition: 'center 0',
