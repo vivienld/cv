@@ -9,7 +9,7 @@ export default function Skills({ skills, headline, artemis, Rating }) {
                     </div>
                 </div>
                 {
-                skills.map((skill, i) => <div key={i} className={artemis('flex-1 flex-column justify-content-center xs-margin-2')}>
+                skills.map((skill, i) => <div key={i} className={artemis('flex-1 flex-column justify-content-center xs-margin-1')}>
 
                     <div className={artemis('row width-100')}>
                                         {

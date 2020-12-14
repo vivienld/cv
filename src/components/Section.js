@@ -31,8 +31,8 @@ export default function Section({ headline, list,className,artemis }) {
                                 </div>
                             </div>
                         </div>
-                        <ul className={artemis('padding-left-5 col-12 xs-text-x-left')}>
-                            {item.tasks ? item.tasks.map((task,i) => <li key={i}>{task}</li>) : null}
+                        <ul className={artemis('padding-left-5 col-12 xs-text-x-left xs-margin-y-2')}>
+                            {item.tasks ? item.tasks.map((task,i) => <li className={artemis('xs-text-x-center')} key={i}>{task}</li>) : null}
                         </ul>
                     </div>
                     )
