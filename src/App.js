@@ -3,8 +3,6 @@ import Rating from 'react-rating'
 
 import data from './data/index.js'
 
-import { artemis } from '@iliad/artemis'
-
 import Header from './components/Header'
 import Section from './components/Section'
 import Skills from './components/Skills'
@@ -24,23 +22,23 @@ const picStyle = {
 
 function App() {
   return (
-    <main className={artemis('row xs-height-auto padding-2 sm-padding-0 xs-padding-0')}>
+    <main className={'row xs-height-auto padding-2 sm-padding-0 xs-padding-0'}>
 
-      <Aside data={data} picStyle={picStyle} artemis={artemis} />
+      <Aside data={data} picStyle={picStyle}  />
 
-      <div className={artemis('flex-column justify-content-stretch sm-margin-0 xs-margin-0 col xs-col-12 padding-left-2 xs-padding-left-0 xs-height-auto height-100')}>
+      <div className={'flex-column justify-content-stretch sm-margin-0 xs-margin-0 col xs-col-12 padding-left-2 xs-padding-left-0 xs-height-auto height-100'}>
 
-        <Header artemis={artemis} data={data} />
+        <Header  data={data} />
 
-        <Portrait description={data.description} picStyle={picStyle} artemis={artemis} className={artemis('display-none xs-display-block')} />
+        <Portrait description={data.description} picStyle={picStyle}  className={'display-none xs-display-block'} />
         
-        <Section artemis={artemis} headline={data.titles.lastExperience} list={data.lastExperience}  />
+        <Section  headline={data.titles.lastExperience} list={data.lastExperience}  />
 
-        <Section artemis={artemis} headline={data.titles.scholarship} list={data.diplomas} />
+        <Section  headline={data.titles.scholarship} list={data.diplomas} />
 
-        <Skills artemis={artemis} Rating={Rating} headline={data.titles.skills} skills={data.skills} />
+        <Skills  Rating={Rating} headline={data.titles.skills} skills={data.skills} />
 
-        <FooterContact artemis={artemis} infos={data.infos} headline={data.titles.contact} />
+        <FooterContact  infos={data.infos} headline={data.titles.contact} />
       </div>
     </main>
   );

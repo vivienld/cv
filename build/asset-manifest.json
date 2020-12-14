@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.345dc4e7.chunk.css",
-    "main.js": "./static/js/main.8607bc31.chunk.js",
-    "main.js.map": "./static/js/main.8607bc31.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.d3e70b61.js",
-    "runtime-main.js.map": "./static/js/runtime-main.d3e70b61.js.map",
-    "static/css/2.e3e154ca.chunk.css": "./static/css/2.e3e154ca.chunk.css",
-    "static/js/2.ae2b51f6.chunk.js": "./static/js/2.ae2b51f6.chunk.js",
-    "static/js/2.ae2b51f6.chunk.js.map": "./static/js/2.ae2b51f6.chunk.js.map",
-    "static/js/3.3e32b8c8.chunk.js": "./static/js/3.3e32b8c8.chunk.js",
-    "static/js/3.3e32b8c8.chunk.js.map": "./static/js/3.3e32b8c8.chunk.js.map",
+    "main.css": "./static/css/main.97ef4a52.chunk.css",
+    "main.js": "./static/js/main.c3fe667d.chunk.js",
+    "main.js.map": "./static/js/main.c3fe667d.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.8b9d492b.js",
+    "runtime-main.js.map": "./static/js/runtime-main.8b9d492b.js.map",
+    "static/css/2.80dcc713.chunk.css": "./static/css/2.80dcc713.chunk.css",
+    "static/js/2.10e52249.chunk.js": "./static/js/2.10e52249.chunk.js",
+    "static/js/2.10e52249.chunk.js.map": "./static/js/2.10e52249.chunk.js.map",
+    "static/js/3.1a76376f.chunk.js": "./static/js/3.1a76376f.chunk.js",
+    "static/js/3.1a76376f.chunk.js.map": "./static/js/3.1a76376f.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/2.e3e154ca.chunk.css.map": "./static/css/2.e3e154ca.chunk.css.map",
-    "static/css/main.345dc4e7.chunk.css.map": "./static/css/main.345dc4e7.chunk.css.map",
-    "static/js/2.ae2b51f6.chunk.js.LICENSE.txt": "./static/js/2.ae2b51f6.chunk.js.LICENSE.txt",
+    "static/css/2.80dcc713.chunk.css.map": "./static/css/2.80dcc713.chunk.css.map",
+    "static/css/main.97ef4a52.chunk.css.map": "./static/css/main.97ef4a52.chunk.css.map",
+    "static/js/2.10e52249.chunk.js.LICENSE.txt": "./static/js/2.10e52249.chunk.js.LICENSE.txt",
     "static/media/all.css": "./static/media/fa-solid-900.ca408b63.svg",
     "static/media/pic.fc3af929.jpg": "./static/media/pic.fc3af929.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d3e70b61.js",
-    "static/css/2.e3e154ca.chunk.css",
-    "static/js/2.ae2b51f6.chunk.js",
-    "static/css/main.345dc4e7.chunk.css",
-    "static/js/main.8607bc31.chunk.js"
+    "static/js/runtime-main.8b9d492b.js",
+    "static/css/2.80dcc713.chunk.css",
+    "static/js/2.10e52249.chunk.js",
+    "static/css/main.97ef4a52.chunk.css",
+    "static/js/main.c3fe667d.chunk.js"
   ]
 }
